@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>HAX11TY doc site</title>
-  <subtitle>HAX + 11ty = bliss</subtitle>
+  <title>onibi</title>
+  <subtitle>project documentation</subtitle>
   <link href="https://profmikegreene.github.io/onibi/rss.xml" rel="self"/>
   <link href="https://profmikegreene.github.io/onibi"/>
-  <updated>2022-03-04T20:00:23.528+00:00</updated>
+  <updated>2022-03-04T20:00:41.586-00:00</updated>
   <id>https://profmikegreene.github.io/onibi</id>
   <author>
     <name>profmikegreene</name>
-    <email>hax@psu.edu
+    <email>
   </author>
   
   <entry>
     <title>About</title>
-    <link href="https://profmikegreene.github.io/onibi/content/1_about/"/>
-    <updated>2022-03-04T20:00:23.528+00:00</updated>
-    <id>https://profmikegreene.github.io/onibi/content/1_about/</id>
+    <link href="https://profmikegreene.github.io/onibi/content/about/"/>
+    <updated>2022-03-04T20:00:41.586-00:00</updated>
+    <id>https://profmikegreene.github.io/onibi/content/about/</id>
     <content type="html">&lt;p&gt;HAX11ty is a merger between HAX and 11ty. It uses these technologies in the following way:
 &lt;ul&gt;
   &lt;li&gt;User edits via HAX (future) or modifies files locally&lt;/li&gt;
@@ -27,10 +27,50 @@
   </entry>
   
   <entry>
+    <title>Get involved!</title>
+    <link href="https://profmikegreene.github.io/onibi/content/contact/"/>
+    <updated>2022-03-04T20:00:41.586-00:00</updated>
+    <id>https://profmikegreene.github.io/onibi/content/contact/</id>
+    <content type="html">&lt;p&gt;The HAXTheWeb team hangs out on slack and would love to chat about all things 11ty, HAX11ty, HAX, and beyond. HAX11ty is one of many creations in the HAX universe and we&#39;d love to hear from those using it. &lt;a href=&quot;https://bit.ly/haxslack&quot;&gt;Join us on slack today!&lt;/a&gt; or follow us on twitter &lt;a href=&quot;https://twitter.com/haxtheweb&quot;&gt;@HAXTheWeb&lt;/a&gt;
+&lt;/p&gt;</content>
+  </entry>
+  
+  <entry>
+    <title>Community examples</title>
+    <link href="https://profmikegreene.github.io/onibi/content/examples/Community/"/>
+    <updated>2022-03-04T20:00:41.586-00:00</updated>
+    <id>https://profmikegreene.github.io/onibi/content/examples/Community/</id>
+    <content type="html">&lt;p&gt;Have an example site in production using HAX11ty? &lt;a href=&quot;https://profmikegreene.github.io/onibi/content/examples/contact&quot;&gt;Contact us&lt;/a&gt; to let us know or &lt;a href=&quot;https://github.com/elmsln/hax11ty/tree/master/src/content&quot;&gt;add a PR via github&lt;/a&gt;&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>HAXTheWeb</title>
+    <link href="https://profmikegreene.github.io/onibi/content/examples/HAXTeam/"/>
+    <updated>2022-03-04T20:00:41.586-00:00</updated>
+    <id>https://profmikegreene.github.io/onibi/content/examples/HAXTeam/</id>
+    <content type="html">&lt;p&gt;We loves us some HAX11ty and dogfood it for many project sites. Here&#39;s a link farm:&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;This site... duh :)&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;https://wcfactory.js.org/&quot;&gt;WCFactory&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>Examples</title>
+    <link href="https://profmikegreene.github.io/onibi/content/examples/"/>
+    <updated>2022-03-04T20:00:41.586-00:00</updated>
+    <id>https://profmikegreene.github.io/onibi/content/examples/</id>
+    <content type="html">&lt;p&gt;Have an example site in production using HAX11ty? We&#39;d love to highlight it and spread the good vibes! Contact us and make sure to click around to the other great examples of HAX11ty out there in the wild&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
     <title>Installation</title>
-    <link href="https://profmikegreene.github.io/onibi/content/2_install/"/>
-    <updated>2022-03-04T20:00:23.528+00:00</updated>
-    <id>https://profmikegreene.github.io/onibi/content/2_install/</id>
+    <link href="https://profmikegreene.github.io/onibi/content/install/"/>
+    <updated>2022-03-04T20:00:41.586-00:00</updated>
+    <id>https://profmikegreene.github.io/onibi/content/install/</id>
     <content type="html">&lt;h2&gt; Quick Installation Script &lt;/h2&gt;
 &lt;code-sample copy-clipboard-button=&quot;&quot;&gt;
   &lt;template&gt;
@@ -42,8 +82,8 @@
 &lt;template&gt;
   git clone https://github.com/elmsln/hax11ty.git
   cd hax11ty
-  yarn install
-  yarn start
+  npm install
+  npm start
 &lt;/template&gt;
 &lt;/code-sample&gt;
 &lt;p&gt;This is the fastest way to get up and running. If you instead want to build new sites with this and push them back up to gh-pages rapidly, start by &lt;a href=&quot;https://github.com/elmsln/hax11ty/generate&quot;&gt;using this repo as a template&lt;/a&gt;. This will copy the github actions workflows as well so all you need to do is change our repo in the git clone above to yours in order to start on what will easily become a live website!&lt;/p&gt;
@@ -53,10 +93,33 @@
   </entry>
   
   <entry>
+    <title>Roadmap</title>
+    <link href="https://profmikegreene.github.io/onibi/content/roadmap/"/>
+    <updated>2022-03-04T20:00:41.586-00:00</updated>
+    <id>https://profmikegreene.github.io/onibi/content/roadmap/</id>
+    <content type="html">&lt;p&gt;The goal of HAX11ty is to combine the best of HAX / HAXcms with the best of 11ty. To that end we seek to produce the following workflow (things done first, followed by things needed):&lt;/p&gt;
+&lt;h3&gt;Working / exists currently&lt;/h3&gt;
+&lt;ul&gt;
+    &lt;li&gt;11ty static site publishing workflow&lt;/li&gt;
+    &lt;li&gt;Abstract content files / settings / structure of 11ty away as much as possible so user deals only with content files&lt;/li&gt;
+    &lt;li&gt;CI / workflow / gh-actions routine automatically setup&lt;/li&gt;
+    &lt;li&gt;Interface with the HAXcms data structure / automatically generate site.json files&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Things needed&lt;/h3&gt;
+&lt;ul&gt;
+    &lt;li&gt;Turn 11ty abstraction (which mirrors HAXcms data structure) into a stand alone npm package / tooling&lt;/li&gt;
+    &lt;li&gt;Get the NodeJS based version of HAXcms wired up to hax11ty to allow for full HAXcms editing tools / endpoints&lt;/li&gt;
+    &lt;li&gt;Allow inclusion of custom assets (which then includes custom theme development) just like HAXcms sites allow&lt;/li&gt;
+    &lt;li&gt;Docker / containerized workflows&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
+  
+  <entry>
     <title>Why this is better</title>
-    <link href="https://profmikegreene.github.io/onibi/content/3_why/"/>
-    <updated>2022-03-04T20:00:23.528+00:00</updated>
-    <id>https://profmikegreene.github.io/onibi/content/3_why/</id>
+    <link href="https://profmikegreene.github.io/onibi/content/why/"/>
+    <updated>2022-03-04T20:00:41.586-00:00</updated>
+    <id>https://profmikegreene.github.io/onibi/content/why/</id>
     <content type="html">&lt;p&gt;&lt;ul&gt;
     &lt;li&gt;Power of &lt;a href=&quot;https://www.11ty.dev/&quot;&gt;11ty&lt;/a&gt; for publishing static / high SEO&lt;/li&gt;
     &lt;li&gt;Easier than 11ty, 0 config solution for publishing&lt;/li&gt;

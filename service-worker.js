@@ -38,20 +38,40 @@
 'use strict';
 var precacheConfig = [
   [
-    "/onibi/content/1_about/",
-    "8Ff4O9N5ll6IMz6q"
+    "/onibi/content/contact/",
+    "Pz0KBWGjiAZKaigv"
   ],
   [
-    "/onibi/content/2_install/",
-    "8Ff4O9N5ll6IMz6q"
+    "/onibi/content/about/",
+    "Pz0KBWGjiAZKaigv"
   ],
   [
-    "/onibi/content/3_why/",
-    "8Ff4O9N5ll6IMz6q"
+    "/onibi/content/install/",
+    "Pz0KBWGjiAZKaigv"
+  ],
+  [
+    "/onibi/content/roadmap/",
+    "Pz0KBWGjiAZKaigv"
+  ],
+  [
+    "/onibi/content/why/",
+    "Pz0KBWGjiAZKaigv"
+  ],
+  [
+    "/onibi/content/examples/Community/",
+    "Pz0KBWGjiAZKaigv"
+  ],
+  [
+    "/onibi/content/examples/HAXTeam/",
+    "Pz0KBWGjiAZKaigv"
+  ],
+  [
+    "/onibi/content/examples/",
+    "Pz0KBWGjiAZKaigv"
   ],
   [
     "/onibi/",
-    "8Ff4O9N5ll6IMz6q"
+    "Pz0KBWGjiAZKaigv"
   ]
 ];
 var cacheName = 'sw-precache-v3--' + (self.registration ? self.registration.scope : '');

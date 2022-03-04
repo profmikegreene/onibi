@@ -1,22 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <pre><code>&lt;url&gt;
-  &lt;loc&gt;https://profmikegreene.github.io/onibi/content/1_about/&lt;/loc&gt;
-  &lt;lastmod&gt;2022-03-04T20:00:23+00:00&lt;/lastmod&gt;
+  &lt;loc&gt;https://profmikegreene.github.io/onibi/content/about/&lt;/loc&gt;
+  &lt;lastmod&gt;2022-03-04T20:00:41+00:00&lt;/lastmod&gt;
   &lt;changefreq&gt;daily&lt;/changefreq&gt;
   &lt;priority&gt;1.0&lt;/priority&gt;
 &lt;/url&gt;
 
 &lt;url&gt;
-  &lt;loc&gt;https://profmikegreene.github.io/onibi/content/2_install/&lt;/loc&gt;
-  &lt;lastmod&gt;2022-03-04T20:00:23+00:00&lt;/lastmod&gt;
+  &lt;loc&gt;https://profmikegreene.github.io/onibi/content/contact/&lt;/loc&gt;
+  &lt;lastmod&gt;2022-03-04T20:00:41+00:00&lt;/lastmod&gt;
   &lt;changefreq&gt;daily&lt;/changefreq&gt;
   &lt;priority&gt;1.0&lt;/priority&gt;
 &lt;/url&gt;
 
 &lt;url&gt;
-  &lt;loc&gt;https://profmikegreene.github.io/onibi/content/3_why/&lt;/loc&gt;
-  &lt;lastmod&gt;2022-03-04T20:00:23+00:00&lt;/lastmod&gt;
+  &lt;loc&gt;https://profmikegreene.github.io/onibi/content/examples/Community/&lt;/loc&gt;
+  &lt;lastmod&gt;2022-03-04T20:00:41+00:00&lt;/lastmod&gt;
+  &lt;changefreq&gt;daily&lt;/changefreq&gt;
+  &lt;priority&gt;1.0&lt;/priority&gt;
+&lt;/url&gt;
+
+&lt;url&gt;
+  &lt;loc&gt;https://profmikegreene.github.io/onibi/content/examples/HAXTeam/&lt;/loc&gt;
+  &lt;lastmod&gt;2022-03-04T20:00:41+00:00&lt;/lastmod&gt;
+  &lt;changefreq&gt;daily&lt;/changefreq&gt;
+  &lt;priority&gt;1.0&lt;/priority&gt;
+&lt;/url&gt;
+
+&lt;url&gt;
+  &lt;loc&gt;https://profmikegreene.github.io/onibi/content/examples/&lt;/loc&gt;
+  &lt;lastmod&gt;2022-03-04T20:00:41+00:00&lt;/lastmod&gt;
+  &lt;changefreq&gt;daily&lt;/changefreq&gt;
+  &lt;priority&gt;1.0&lt;/priority&gt;
+&lt;/url&gt;
+
+&lt;url&gt;
+  &lt;loc&gt;https://profmikegreene.github.io/onibi/content/install/&lt;/loc&gt;
+  &lt;lastmod&gt;2022-03-04T20:00:41+00:00&lt;/lastmod&gt;
+  &lt;changefreq&gt;daily&lt;/changefreq&gt;
+  &lt;priority&gt;1.0&lt;/priority&gt;
+&lt;/url&gt;
+
+&lt;url&gt;
+  &lt;loc&gt;https://profmikegreene.github.io/onibi/content/roadmap/&lt;/loc&gt;
+  &lt;lastmod&gt;2022-03-04T20:00:41+00:00&lt;/lastmod&gt;
+  &lt;changefreq&gt;daily&lt;/changefreq&gt;
+  &lt;priority&gt;1.0&lt;/priority&gt;
+&lt;/url&gt;
+
+&lt;url&gt;
+  &lt;loc&gt;https://profmikegreene.github.io/onibi/content/why/&lt;/loc&gt;
+  &lt;lastmod&gt;2022-03-04T20:00:41+00:00&lt;/lastmod&gt;
   &lt;changefreq&gt;daily&lt;/changefreq&gt;
   &lt;priority&gt;1.0&lt;/priority&gt;
 &lt;/url&gt;
