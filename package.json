@@ -1,14 +1,14 @@
 {
-  "name": "hax11ty",
+  "name": "onibi",
   "version": "1.2.9-11ty",
-  "description": "project documentation",
+  "description": "HAX + 11ty = bliss",
   "main": "index.html",
   "repository": {
     "type": "git",
-    "url": "git@github.com:elmsln/hax11ty.git"
+    "url": "git@github.com:profmikegreene/onibi.git"
   },
   "author": {
-    "name": "btopro"
+    "name": "profmikegreene"
   },
   "license": "Apache-2.0",
   "dependencies": {
@@ -129,8 +129,8 @@
     "lint": "prettier --check 'system/**/*.php' '*.{html,js,php,yml}'",
     "format": "prettier --write 'system/**/*.php' '*.{html,js,php,yml}'",
     "terser": "gulp",
-    "start": "npm run dev",
+    "start": "yarn run dev",
     "dev": "polymer serve --open --entrypoint dist/dev.html --allow-origin --open-path=/",
-    "dev-theme": "cd custom && npm start"
+    "dev-theme": "cd custom && yarn start"
   }
 }

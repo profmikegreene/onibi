@@ -1,7 +1,7 @@
 {
-  "name": "hax11ty",
-  "short_name": "hax11ty",
-  "description": "project documentation",
+  "name": "HAX11TY doc site",
+  "short_name": "HAX11TY doc site",
+  "description": "HAX + 11ty = bliss",
   "icons": [
     {
       "src": "assets/android-icon-36x36.png",
@@ -47,12 +47,12 @@
       "density": "4.0"
     }
   ],
-  "scope": "/hax11ty/",
-  "start_url": "/hax11ty/",
+  "scope": "/onibi/",
+  "start_url": "/onibi/",
   "display": "standalone",
   "theme_color": "#55FF55",
   "background_color": "#55FF55",
-  "url": "https://elmsln.github.io/hax11ty",
+  "url": "https://profmikegreene.github.io/onibi",
   "lang": "en",
   "screenshots": [],
   "orientation": "portrait"
